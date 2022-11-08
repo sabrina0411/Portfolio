@@ -592,10 +592,16 @@ h1, h2, h3, h4, h5, h6{
 .div{
     display: block;
 }
-.contact .contact-content .row i{    
+.contact-div{    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.contact-icon{    
     align-items: center;
     font-size: 20px;
     color: crimson;
+    margin-right: 10px;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
