@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     height: 2px;
     left: 15.5%;
-    top: 30.7%;
+    top: 31.5%;
     background-color: #b0b0b0;
     width: 3in;
 }
@@ -423,8 +423,8 @@ h1, h2, h3, h4, h5, h6{
     display: block;
     position: absolute;
     height: 2px;
-    left: 19%;
-    top: 54.5%;
+    left: 18%;
+    top: 55.5%;
     background-color: #060606;
     width: 3in;
 }
@@ -501,7 +501,7 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     height: 2px;
     left: 21%;
-    top: 67.5%;
+    top: 69%;
     background-color: #b0b0b0;
     width: 3in;
 }
@@ -564,7 +564,7 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     height: 2px;
     left: 21%;
-    top: 81.5%;
+    top: 82.5%;
     background-color: #000000;
     width: 3in;
 }
