@@ -18,6 +18,7 @@ body::before{
     content: "";
     position: fixed;
     background: #14011d url(./image/pp.png) top right no-repeat;
+    opacity: 80%;
     left: 0;
     background-size: 100%;
     right: 0;
@@ -88,8 +89,10 @@ h1, h2, h3, h4, h5, h6{
 }  
 .nav-menu .menu li a{
     color: #fff;
+    text-shadow: 0 0 5px #060606, 0 0 8px #111;
+    -webkit-text-stroke: .4px black;
     text-align: center;
-    font-weight: 500;
+    font-weight: bold;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
@@ -263,8 +266,10 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
     line-height: 1;
-    font-weight: 700;
+    font-weight: bold;
     font-family: "Popins", sans-serif;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0 0 8px black;
 }
 
 #header h1 a,
@@ -276,12 +281,14 @@ h1, h2, h3, h4, h5, h6{
 
 #header h2{
     font-size: 22px;
+    font-weight: bold;
     margin-top: 15px;
-    color:deepskyblue;
+    color:#fbfbfd;
 }
 
 #header h2 span{
-    color: #fb89f6;
+    color: #570653;
+    
 }
 
 #header .social-link{
@@ -295,9 +302,10 @@ h1, h2, h3, h4, h5, h6{
     justify-content: center;
     align-items: center;
     background: #fffcff1a;
-    color: #fff;
+    color: #7f0b75;
     line-height: 1;
     margin-right: 8px;
+    border: 1px solid #7f0b75;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -305,6 +313,8 @@ h1, h2, h3, h4, h5, h6{
 
 #header .social-link a:hover{
     background: #983990;
+    color: white;
+    border: none;
 }
 
 /* responsive */
