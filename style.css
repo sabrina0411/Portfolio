@@ -17,7 +17,7 @@ body{
 body::before{
     content: "";
     position: fixed;
-    background: #14011d url(./image/) top right no-repeat;
+    background: #14011d url(./image/pp.png) top right no-repeat;
     left: 0;
     background-size: 100%;
     right: 0;
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     height: 2px;
     left: 15.5%;
-    top: 31.4%;
+    top: 30%;
     background-color: #b0b0b0;
     width: 3in;
 }
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     height: 2px;
     left: 18%;
-    top: 55.5%;
+    top: 54.5%;
     background-color: #060606;
     width: 3in;
 }
@@ -450,6 +450,9 @@ h1, h2, h3, h4, h5, h6{
 }
 .skills .skills-content .left p{
     text-align: justify;
+}
+.skills .skills-content .left p span{
+    font-weight: bold;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -501,7 +504,7 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     height: 2px;
     left: 21%;
-    top: 69%;
+    top: 68%;
     background-color: #b0b0b0;
     width: 3in;
 }
@@ -563,8 +566,8 @@ h1, h2, h3, h4, h5, h6{
     display: block;
     position: absolute;
     height: 2px;
-    left: 21%;
-    top: 82.5%;
+    left: 20.5%;
+    top: 82.2%;
     background-color: #000000;
     width: 3in;
 }
