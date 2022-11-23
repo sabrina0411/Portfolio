@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     height: 2px;
     left: 18%;
-    top: 55.5%;
+    top: 55%;
     background-color: #060606;
     width: 3in;
 }
@@ -493,10 +493,10 @@ h1, h2, h3, h4, h5, h6{
     background: #983990;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 55%;
 }
 .skills-content .right .css::before{
-    width: 85%;
+    width: 55%;
 }
 .skills-content .right .js::before{
     width: 45%;
